@@ -25,3 +25,13 @@ footer{
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
 }
+.cartao__conteudo{
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
+}
+.cartao__conteudo h3 {
+    background-color: tomato;
+    text-align: left;
+    padding: 0.5rem;
+}
