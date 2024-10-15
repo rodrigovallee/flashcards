@@ -40,3 +40,6 @@ footer{
     border-radius: 0.6rem;
     font-size: 1vw;
 }
+.cartao :hover .cartao__conteudo{
+transform: rotateY(180deg);
+}
