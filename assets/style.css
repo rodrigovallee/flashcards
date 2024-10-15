@@ -29,6 +29,8 @@ footer{
     text-align: center;
     background-color: aquamarine;
     height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 .cartao__conteudo h3 {
     background-color: tomato;
@@ -40,5 +42,5 @@ footer{
     font-size: 1vw;
 }
 .cartao :hover .cartao__conteudo{
-transform:rotateY(180deg);
+transform: rotateY(180deg);
 }
