@@ -42,7 +42,7 @@ footer{
     font-size: 1vw;
     backface-visibility: hidden;
 }
-.cartao :hover .cartao__conteudo{
+.cartao:hover .cartao__conteudo{
 transform: rotateY(180deg);
 }
 .cartao__conteudo__pergunta,
